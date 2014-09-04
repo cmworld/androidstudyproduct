@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TITLE_QUIT">退出程序</string>
+    <string name="MSG_QUIT">确定要退出吗？</string>
+    <string name="MSG_LOGIN_ERR">登录验证错误。</string>
+    <string name="MSG_CONNECTION_ERR">连接失败，请检查下你的网络</string>
+    <string name="MSG_NO_AVAILABLE_NET">连接失败，请检查下你的网络</string>
+    <string name="MSG_TIME_OUT">获取数据超时，请重试</string>
+    <string name="STR_CONFIRM">确定</string>
+    <string name="STR_CANCEL">取消</string>
+    <string name="STR_BACK">返回</string>
+    <string name="STR_ERR">错误</string>
+    <string name="STR_QUIT">退出</string>
+    <string name="STR_RETRY">重试</string>
+ 	<string name="STR_ERR_MSG">错误信息</string>
+    <string name="STR_CONNECTING">数据请求中，请稍后...</string>
+</resources>

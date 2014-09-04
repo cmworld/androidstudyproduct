@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="60dp" 
+     android:layout_alignParentBottom="true"
+     android:background="#FFFFFF"
+>
+
+<FrameLayout
+         android:id="@+id/shop_intc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="15dp"
+         android:background="@null" >
+
+         <ImageView
+          android:id="@+id/ico_cart"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@drawable/ico_cart"
+ />
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:gravity="top|right|center"
+              >
+             <TextView
+                 android:id="@+id/shopping_cart_num"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/ico_num_inc"
+                 android:gravity="center"
+                 android:text="0"
+                 android:textColor="@android:color/white"
+                 android:textSize="10sp"
+                 android:visibility="visible" />
+         </LinearLayout>
+     </FrameLayout>        
+
+     <TextView
+         android:id="@+id/shopping_cart_status"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/shop_intc"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="10dp"
+         android:gravity="center_vertical"
+         android:text="总价0元"
+         android:textSize="16sp" />
+
+     <Button
+         android:id="@+id/shopping_cart_submit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="15dp"
+         android:paddingLeft="15dp"
+         android:paddingRight="15dp"
+         android:background="#666666"
+         android:text="差20元起送"
+         android:textColor="#ffffff"
+         android:textSize="18sp" />
+
+ </RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">土也球</string>
+	<string name="top_menu_search">search</string>
+	<string name="top_menu_booksection">booksection</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="shop_menu">菜单</string>
+    <string name="shop_intro">餐厅介绍</string>
+    
+    <string name="num_inc">+</string>
+    <string name="num_dec">-</string>
+    
+    <string name="search_result">search_result</string>
+    <string name="search_hint">请输入送餐地址</string>
+    
+    
+    <string name="title_add_address">添加地址</string>
+    <string name="title_logout">退出登陆</string>
+    <string name="title_aboutus">关于我们</string>
+    <string name="title_address">配送地址</string>
+    <string name="title_chgpass">修改密码</string>
+    <string name="title_login">登陆</string>
+    <string name="title_register">注册</string>
+    <string name="title_registerlogin">登录 / 注册</string>
+    <string name="account_order">我的下午茶</string>
+    <string name="account_fav">我的收藏</string>
+    <string name="shpping_cart_title">购物车</string>
+    
+    <string name="input_mobile">手机号</string>
+    <string name="input_vaildcode">验证码</string>
+    <string name="input_password">密码</string>
+    
+    <string name="login_submit">登陆</string>
+    <string name="login_register_txt">注册</string>
+    <string name="login_findpass_txt">忘记密码？</string>   
+    
+    <string name="register_btn">提交注册</string>
+    <string name="register_sms">获取验证码</string>
+    <string name="register_sms_tip">为了验证您的身份，我们将会发送短信验证码</string>
+    
+    <string name="loading">加载下一页…</string>
+    <string name="no_more">已经是最新了</string>
+    <string name="reloading">点我重新加载…</string>
+    <string name="pull_to_retry">加载失败，下拉重试</string>
+    
+    <string name="location">正在定位中</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>    
+</resources>

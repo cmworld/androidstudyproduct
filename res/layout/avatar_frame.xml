@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawSelectorOnTop="true"
+    android:background="@drawable/bg_nav"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:paddingTop="50dp" >
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_centerVertical="true"
+        android:src="@drawable/account_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center" />
+    
+    <LinearLayout 
+	    android:id="@+id/signinout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:layout_gravity="center" 
+	    android:orientation="horizontal"
+	    android:background="@drawable/bg_login_reg"
+	    >        
+		<Button
+		    android:id="@+id/signin_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="登录 "
+		    android:gravity="center"
+		   	android:textColor="#ffffff"
+		   	android:textSize="14sp"
+		   	android:background="#00000000"
+		    />
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="/"
+		    android:gravity="center"
+		   	android:textColor="#ffffff"
+		   	android:textSize="14sp"
+		    />
+	    <Button
+	        android:id="@+id/register_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="注册"
+	        android:layout_centerVertical="true"
+	        android:textColor="#ffffff"
+	        android:textSize="14sp"
+	        android:background="#00000000" />
+    </LinearLayout>
+</LinearLayout>

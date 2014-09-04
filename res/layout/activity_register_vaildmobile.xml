@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner_login" />
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+   
+    
+	    <EditText
+	      android:id="@+id/register_mobile"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/btn_border"
+	      android:hint="@string/input_mobile"
+	      android:inputType="phone"
+		  android:singleLine="true"
+	      android:textSize="14sp" />
+	   
+		<LinearLayout
+		    android:layout_width="fill_parent"  
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">	    
+	       <EditText
+	           android:id="@+id/register_vaildcode"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1"
+	           android:layout_marginRight="5dp"
+	           android:background="@drawable/btn_border"
+	           android:hint="@string/input_vaildcode"
+	           android:inputType="number"
+	           android:singleLine="true"
+	           android:textSize="14sp" />
+	
+			<Button
+			    android:id="@+id/vaildcode_btn"
+			    android:layout_width="110dp"
+			    android:layout_height="35dp"
+			    android:background="@drawable/shape"
+			    android:text="@string/register_sms"
+			    android:textColor="#ffffff"
+			    android:textSize="12sp" />
+	 	</LinearLayout>
+		<EditText
+		    android:id="@+id/register_password"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:background="@drawable/btn_border"
+		    android:inputType="textCapCharacters"
+		    android:password="true"
+		    android:hint="@string/input_password"
+		    android:singleLine="true"
+		    android:textSize="14sp" />    
+	    
+     <Button
+         android:id="@+id/submit_btn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape"
+         android:text="@string/register_btn"
+         android:textColor="#ffffff" />
+	
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/register_sms_tip"
+        android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/menu_search" 
+        android:showAsAction="ifRoom"
+        android:title="@string/top_menu_search"
+		android:icon="@drawable/ic_search_inverse" />
+    
+    <item  android:id="@+id/menu_booksection" 
+        android:showAsAction="ifRoom"
+        android:title="@string/top_menu_booksection"
+		android:icon="@drawable/ic_compose_inverse" />    
+</menu>
+

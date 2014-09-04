@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<android.support.v4.widget.DrawerLayout
+	    android:id="@+id/drawer_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+
+	    <FrameLayout
+	        android:id="@+id/content_frame"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+	
+	    <LinearLayout
+	        android:id="@+id/left_drawer"
+	        android:layout_width="240dp"
+	        android:orientation="vertical"
+	        android:background="#FFFFFF"
+	        android:layout_gravity="start"
+	        android:layout_height="match_parent" >
+	    	<include layout="@layout/avatar_frame_v2" android:id="@+id/avatar_frame" />
+	    	<ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice" />
+	    	
+	    	<Button 
+		    	android:id="@+id/logout_btn"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="15dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:text="@string/title_logout"
+		        android:textColor="#ffffff"
+		        android:textSize="14sp"
+		        android:background="@drawable/shape"
+		        android:visibility="gone"
+	    	    />
+		</LinearLayout>
+	</android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

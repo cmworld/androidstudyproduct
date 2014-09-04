@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zehua.tyqiu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name="com.app.common.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="46379fd6cd7474e76b3873ed75f573af"/>        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUsActivity"></activity>
+        <activity android:name=".SearchShopActivity"></activity>        
+        <activity android:name=".SearchLocationActivity"></activity>
+        <activity android:name=".ShopfaceActivity" ></activity>
+        <activity android:name=".AccountLoginActivity" ></activity>
+        <activity android:name=".AccountRegisterActivity" ></activity>
+        <activity android:name=".AccountOrderActivity" ></activity>
+        <activity android:name=".AccountFavActivity" ></activity>
+        <activity android:name=".AccountAddressActivity" ></activity>
+        <activity android:name=".AccountChgActivity" ></activity>
+        <activity android:name=".ShoppingCartActivity" ></activity>
+        <activity android:name=".ShoppingOrderActivity" ></activity>
+    </application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />      
+</manifest>
